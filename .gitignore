@@ -1,2 +1,2 @@
-video_service/.env
-api_gateway/.env
+stream_svc/config/envs/dev.env
+api_gateway_svc/config/envs/dev.env
