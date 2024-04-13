@@ -1,17 +1,15 @@
 module api_gateway_svc
 
-go 1.22.1
+go 1.21.5
 
 require (
 	github.com/gin-gonic/gin v1.9.1
 	github.com/spf13/viper v1.18.2
-	google.golang.org/grpc v1.63.0
+	google.golang.org/grpc v1.63.2
 	google.golang.org/protobuf v1.33.0
-	honnef.co/go/tools v0.4.7
 )
 
 require (
-	github.com/BurntSushi/toml v1.2.1 // indirect
 	github.com/bytedance/sonic v1.9.1 // indirect
 	github.com/chenzhuoyu/base64x v0.0.0-20221115062448-fe3a3abad311 // indirect
 	github.com/fsnotify/fsnotify v1.7.0 // indirect
@@ -48,7 +46,6 @@ require (
 	golang.org/x/net v0.21.0 // indirect
 	golang.org/x/sys v0.17.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
-	golang.org/x/tools v0.13.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240227224415-6ceb2ff114de // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
